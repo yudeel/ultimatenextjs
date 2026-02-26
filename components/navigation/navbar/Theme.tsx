@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import React from "react";
 
 import {
   DropdownMenu,
@@ -40,7 +39,7 @@ const Theme = () => {
         </div>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="dark:border-dark-400 dark:bg-dark-300 absolute -right-12 mt-3 min-w-[120px] rounded border py-2">
+      <DropdownMenuContent className="dark:border-dark-400 dark:bg-dark-300 absolute -right-12 mt-3 min-w-30 rounded border py-2">
         {themes.map((item) => (
           <DropdownMenuItem
             key={item.value}
